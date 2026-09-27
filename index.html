@@ -3,21 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIPERR // SHH TRILOGY</title>
-    <!-- Подключаем наш файл со стилями CSS -->
+    <title>VIPERR ARCHIVE</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <!-- Блок, куда встанет обложка альбома -->
-        <div class="album-cover-placeholder"></div>
-        
-        <p class="subtitle">VIPERR ARCHIVE</p>
-        <h1>KAI ANGEL & 9MICE</h1>
-        <p class="description">Интерактивный цифровой архив и гид по музыкальной экосистеме дуэта VIPERR. Экспериментальный звук, разрушающий каноны современной рэп-индустрии.</p>
-        
-        <a href="https://t.me/musiiiiiiiiiickai_bot" class="btn">Открыть музыкального бота</a>
-    </div>
-</body>
 
+    <!-- Контейнер для плавного кадрового скролла -->
+    <div class="scroll-container">
+
+        <!-- КАДР 1: ОБЩИЙ ВАЙБ VIPERR -->
+        <section class="slide first-screen">
+            <div class="container-split">
+                <div class="split-left">
+                    <!-- Картинка напрямую в HTML -->
+                    <img src="cover.jpg" alt="VIPERR" class="main-photo">
+                </div>
+                <div class="split-right">
+                    <p class="subtitle">DIGITAL ARCHIVE</p>
+                    <h1>VIPERR</h1>
+                    <p class="description">Интерактивная экосистема и гид по дискографии самого экспериментального дуэта индустрии. Звук, разрушающий привычные каноны и создающий новую реальность.</p>
+                    <div class="scroll-hint">Листай вниз для каста ↓</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- КАДР 2: КАСТ -->
+        <section class="slide second-screen">
+            <div class="duo-wrapper">
+                
+                <div class="huge-title">ОСНОВАТЕЛИ VIPERR</div>
+                
+                <div class="artists-grid">
+                    <!-- Блок Кая Ангела (Слева) -->
+                    <div class="artist-column">
+                        <img src="kai.jpg" alt="Kai Angel" class="artist-photo">
+                        <h2>KAI ANGEL</h2>
+                        <p class="artist-text">Главный архитектор звука. Тяжелый индустриальный трэп, вдохновленный высокой модой, эстетикой киберпанка и лоуфайными синти-поп мотивами.</p>
+                    </div>
+
+                    <!-- Блок 9mice (Справа) -->
+                    <div class="artist-column">
+                        <img src="mice.jpg" alt="9mice" class="artist-photo">
+                        <h2>9MICE</h2>
+                        <p class="artist-text">Мрачная вампирская эстетика, перегруженные басы от американских продюсеров и гиперагрессивный глэм-рок звук поколения 999999.</p>
+                    </div>
+                </div>
+
+                <!-- Финальная кнопка бота строго по центру снизу -->
+                <div class="button-zone">
+                    <a href="https://t.me/musiiiiiiiiiickai_bot" class="btn">Открыть медиа-бота</a>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+</body>
 </html>
