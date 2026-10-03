@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIPERR ARCHIVE</title>
+    <title>VIPERR ARCHIVE // MULTIMEDIA HUB</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Контейнер для плавного кадрового скролла -->
+    <!-- ВЕРХНЕЕ МЕНЮ (HEADER) -->
+    <header class="main-header">
+        <div class="header-logo">VIPERR // ARCHIVE</div>
+        <nav class="header-nav">
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://soundcloud.com" target="_blank">Kai SoundCloud</a>
+            <a href="https://soundcloud.com" target="_blank">9mice SoundCloud</a>
+        </nav>
+    </header>
+
     <div class="scroll-container">
 
         <!-- КАДР 1: ОБЩИЙ ВАЙБ VIPERR -->
         <section class="slide first-screen">
             <div class="container-split">
                 <div class="split-left">
-                    <!-- Картинка напрямую в HTML -->
                     <img src="cover.jpg" alt="VIPERR" class="main-photo">
                 </div>
                 <div class="split-right">
-                    <p class="subtitle">DIGITAL ARCHIVE</p>
+                    <p class="subtitle">DIGITAL HUB</p>
                     <h1>VIPERR</h1>
                     <p class="description">Интерактивная экосистема и гид по дискографии самого экспериментального дуэта индустрии. Звук, разрушающий привычные каноны и создающий новую реальность.</p>
                     <div class="scroll-hint">Листай вниз для каста ↓</div>
@@ -27,37 +35,120 @@
             </div>
         </section>
 
-        <!-- КАДР 2: КАСТ -->
+        <!-- КАДР 2: ОСНОВАТЕЛИ -->
         <section class="slide second-screen">
             <div class="duo-wrapper">
-                
                 <div class="huge-title">ОСНОВАТЕЛИ VIPERR</div>
-                
                 <div class="artists-grid">
-                    <!-- Блок Кая Ангела (Слева) -->
                     <div class="artist-column">
                         <img src="kai.jpg" alt="Kai Angel" class="artist-photo">
                         <h2>KAI ANGEL</h2>
-                        <p class="artist-text">Главный архитектор звука. Тяжелый индустриальный трэп, вдохновленный высокой модой, эстетикой киберпанка и лоуфайными синти-поп мотивами.</p>
+                        <p class="artist-text">Главный архитектор звука. Предыстория: От сольных авангардных инди-экспериментов Дима пришел к созданию мрачной индустриальной трэп-эстетики СНГ, вдохновленной высокой модой.</p>
+                        <div class="player-wrapper">
+                            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://soundcloud.com"></iframe>
+                        </div>
                     </div>
-
-                    <!-- Блок 9mice (Справа) -->
                     <div class="artist-column">
                         <img src="mice.jpg" alt="9mice" class="artist-photo">
                         <h2>9MICE</h2>
-                        <p class="artist-text">Мрачная вампирская эстетика, перегруженные басы от американских продюсеров и гиперагрессивный глэм-рок звук поколения 999999.</p>
+                        <p class="artist-text">Мрачный вампирский вайб. Предыстория: Сергей выстроил свой стиль на стыке западного опиум-звука и агрессивного глэм-рока, работая с американскими продюсерами уровня F1LTHY.</p>
+                        <div class="player-wrapper">
+                            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://soundcloud.com"></iframe>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Финальная кнопка бота строго по центру снизу -->
-                <div class="button-zone">
-                    <a href="https://t.me/musiiiiiiiiiickai_bot" class="btn">Открыть медиа-бота</a>
-                </div>
-
+                <div class="scroll-hint">Исследовать альбомы ↓</div>
             </div>
         </section>
 
-    </div>
+        <!-- КАДР 3: ХРОНИКИ АЛЬБОМОВ -->
+        <section class="slide third-screen">
+            <div class="content-wrapper mega-discography">
+                <div class="huge-title">DISCOGRAPHY CHRONICLES</div>
+                
+                <div class="joint-releases-line">
+                    <div class="album-card borderless-card">
+                        <img src="hm1.jpg" alt="Heavy Metal 1" class="album-art">
+                        <h3>HEAVY METAL</h3>
+                        <p class="album-concept">Дебютный совместный альбом дуэта. Манифест новой школы СНГ. Перегруженные басы, эстетика готики и высокая мода.</p>
+                    </div>
+                    <div class="album-card borderless-card">
+                        <img src="hm2.jpg" alt="Heavy Metal 2" class="album-art">
+                        <h3>HEAVY METAL 2</h3>
+                        <p class="album-concept">Развитие совместных идей с упором на футуристичный звук, ломаные перегруженные биты и агрессивные гитары.</p>
+                    </div>
+                </div>
+
+                <div class="solo-releases">
+                    <div class="album-card card-kai">
+                        <img src="godsystem.jpg" alt="God System" class="album-art-solo">
+                        <h3>GOD SYSTEM</h3>
+                        <p class="album-concept">Сольный альбом Кая. Концептуальный кибер-индустриальный звук и глубокие эмбиент-паузы.</p>
+                    </div>
+                    <div class="album-card card-kai">
+                        <img src="marilynmanson.jpg" alt="Marilyn Manson" class="album-art-solo">
+                        <h3>MARILYN MANSON</h3>
+                        <p class="album-concept">Культовый сольный релиз Димы. Тяжелая эстетика, дерзкий грязный рэп и разрывной бас.</p>
+                    </div>
+                    <div class="album-card card-mice">
+                        <img src="orpheus.jpg" alt="Orpheus" class="album-art-solo">
+                        <h3>ORPHEUS</h3>
+                        <p class="album-concept">Сольный релиз 9mice. Чистый, пугающе минималистичный опиум-рэп и глэм-готика.</p>
+                    </div>
+                    <div class="album-card card-mice">
+                        <img src="asphalt.jpg" alt="Asphalt" class="album-art-solo">
+                        <h3>ASPHALT</h3>
+                        <p class="album-concept">Сольный тейп Сергея. Плотное звучание ночного стрит-рейва с качающими битами.</p>
+                    </div>
+                </div>
+
+                <div class="scroll-hint">Посмотреть мерч ↓</div>
+            </div>
+        </section>
+
+        <!-- КАДР 4: ОФИЦИАЛЬНЫЙ МЕРЧ-ДРОП -->
+        <section class="slide fourth-screen">
+            <div class="content-wrapper">
+                <div class="pyramid-title">
+                    <span class="top-word">MERCH</span>
+                    <span class="bottom-word">VIPERR</span>
+                </div>
+                
+                <p class="section-desc">Эксклюзивный лимитированный шмот. Монетизация независимого музыкального объединения.</p>
+                
+                <div class="merch-monolith-box">
+                    <div class="merch-icon-glow">🦇</div>
+                    <h3>OFFICIAL MERCHANDISE HUB</h3>
+                    <p>Доступ к официальным дропам одежды, худи и аксессуаров VIPERR.</p>
+                    <a href="https://viperr.world" target="_blank" class="btn merch-btn">Перейти в магазин</a>
+                </div>
+
+                <div class="scroll-hint spacing-fix">Стриминг и медиа-бот ↓</div>
+            </div>
+        </section>
+
+        <!-- КАДР 5: СТРИМИНГ-ГИД И ФИНАЛ -->
+        <section class="slide fifth-screen">
+            <div class="duo-wrapper">
+                <div class="huge-title">STREAMING & ECOSYSTEM</div>
+                <p class="section-desc">Слушай релизы дуэта на любых удобных мировых и СНГ площадках:</p>
+                
+                <div class="streaming-glow-square">
+                    <div class="streaming-links">
+                        <a href="https://yandex.ru" target="_blank" class="stream-btn yam">Яндекс Музыка</a>
+                        <a href="https://spotify.com" target="_blank" class="stream-btn spot">Spotify</a>
+                        <a href="https://apple.com" target="_blank" class="stream-btn apple">Apple Music</a>
+                    </div>
+                </div>
+
+                <div class="center-zone">
+                    <p class="bot-call">Используй нашего умного интерактивного бота для бесплатного прослушивания треков в SoundCloud без подписок:</p>
+                    <a href="https://t.me" class="btn">Открыть медиа-бота</a>
+                </div>
+            </div>
+        </section>
+
+    </div> <!-- Конец scroll-container -->
 
 </body>
 </html>
